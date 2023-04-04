@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>Liste des personnes</title>
+</head>
+<body>
+<h1>Liste des donateurs</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Nom</th>
+    <th>Prenom</th>
+    <th>Email</th>
+    <th>Montant du don</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="donateur : ${donateurs}">
+    <td th:text="${donateur.lastname}"></td>
+
+    <td th:text="${donateur.firstname}"></td>
+    <td th:text="${donateur.email}"></td>
+    <td th:text="${donateur.montantDon}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

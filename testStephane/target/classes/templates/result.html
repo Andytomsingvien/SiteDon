@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Merci!</h1>
+    <p>
+        <span th:text="${donateur.lastname}"></span>
+        <span th:text="${donateur.firstname}"></span>
+        , nous vous remercions pour votre don.
+    </p>
+    <p>
+        Nous avons envoyé un e-mail de confirmation à l'adresse
+        <span th:text="${donateur.email}"></span>
+    </p>
+
+</body>
+</html>

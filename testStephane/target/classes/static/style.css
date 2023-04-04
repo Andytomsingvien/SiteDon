@@ -1,0 +1,121 @@
+main {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: left; /* Ajout de la propriété pour décaler vers la gauche */
+}
+/* Styles pour le body */
+body {
+background-image: url("cancer.jpg"); /* Image de fond */
+background-size: cover;
+background-position: center;
+color: #4d4d4d; /* Gris foncé */
+}
+
+/* Styles pour la navigation bar */
+nav {
+background-color: transparent;
+color: #e75480; /* Rose foncé */
+padding: 25px;
+box-shadow: none; /* Suppression de l'ombre */
+}
+
+nav a {
+    color: #e75480;
+    /* Rose foncé */
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 22px;
+   transition: color 0.2s ease-in-out; /* Effet de transition */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Modification ici */
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #f08080; /* Rose foncé */
+}
+
+/* Styles pour le contenu principal */
+main {
+margin: 50px auto; /* Modification ici */
+max-width: 800px; /* Modification ici */
+}
+
+h1 {
+    font-size: 48px;
+    color: #f08080;
+    /* Rose foncé /
+   text-align: center; / Modification ici */
+}
+
+p {
+    color: #8B6969;
+    /* Rose foncé */
+   font-size: 22px;
+   line-height: 1.8;
+   text-align: justify; /* Modification ici */
+}
+
+.button {
+    display: inline-block;
+    background-color: #f08080;
+    /* Rose foncé */
+   color: white;
+   padding: 25px 40px;
+   border: none;
+   border-radius: 10px;
+   font-size: 22px;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.button:hover {
+    background-color: #4d4d4d; /* Gris foncé */
+}
+
+/* Styles pour le formulaire de dons */
+form {
+display: flex;
+flex-direction: column;
+background-color: transparent; /* Gris clair */
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+label {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+    background-color: transparent;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: transparent;
+    color: #e75480; /* Rose foncé */
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
